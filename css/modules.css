@@ -1,0 +1,37 @@
+
+.section-e, .section-f, .section-g, .section-h {
+    height: 250px;
+    width: 240px;
+    float: left;
+    line-height: 250px;
+}
+
+.section-e, .section-g {
+    border-right: none;
+}
+
+.section-a {
+    height: 75px;
+    line-height: 75px;
+}
+
+.section-b {
+    height: 150px;
+    line-height: 150px;
+}
+
+.section-c {
+    height: 125px;
+    line-height: 125px;
+}
+
+.section-d {
+    height: 125px;
+    line-height: 125px;
+}
+
+.section-i {
+    height: 80px;
+    line-height: 80px;
+    clear: both;
+}
