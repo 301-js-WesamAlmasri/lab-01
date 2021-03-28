@@ -1,0 +1,75 @@
+
+.section-e, .section-f, .section-g, .section-h {
+    height: 250px;
+    width: 240px;
+    float: left;
+    line-height: 250px;
+}
+
+.section-e, .section-g {
+    border-right: none;
+}
+
+.section-a {
+    height: 75px;
+    line-height: 75px;
+}
+
+.section-b {
+    height: 150px;
+    line-height: 150px;
+}
+
+.section-c {
+    height: 125px;
+    line-height: 125px;
+}
+
+.section-d {
+    height: 125px;
+    line-height: 125px;
+}
+
+.section-i {
+    height: 80px;
+    line-height: 80px;
+    clear: both;
+}
+
+
+@media screen and (min-width: 960px) {
+    .section-b {
+        width: 200px;
+        height: 600px;
+        line-height: 600px;
+        float: left;
+        border-right: none;
+    }
+
+    .section-c, .section-d {
+        width: 380px;
+        height: 200px;
+        line-height: 200px;
+        float: left;
+    }
+
+    .section-e, .section-f, .section-g, .section-h {
+        width: 190px;
+        height: 250px;
+        line-height: 250px;
+        float: left;
+    }
+
+    .section-c, .section-f {
+        border-right: none;
+    }
+
+    .section-i {
+        width: 760px;
+        height: 150px;
+        line-height: 150px;
+        float: left;
+        clear: right;
+    }
+    
+}
